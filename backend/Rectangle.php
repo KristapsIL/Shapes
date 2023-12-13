@@ -11,6 +11,6 @@ class Rectangle extends Shapes{
     }
 
     public function calculateArea(){
-        echo $this->width*$this->height;
+        return $this->width*$this->height;
     }
 }
